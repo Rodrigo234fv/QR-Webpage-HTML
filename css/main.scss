@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;500&display=swap');
+
+body{
+	background: #d5e1ee;
+	margin: 0;
+	font-family: Outfit;
+}
+
+.main{
+	text-align: center;
+	padding-top: 10em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 10em;
+}
+
+.container{
+	background-color: white;
+	border-radius: 1em;
+	padding-bottom: 2em;
+
+	.QR-Code{
+		margin-top: 1em;
+		border-radius: 1em;
+		width: 90%;
+	}
+
+	h1{
+		font-weight: bold;
+		font-size: 1.7em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	p{
+		color: grey;
+		padding-left:3em;
+		padding-right: 3em;
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 1080px){
+	.container{
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	body{
+			background-image: url(../images/favicon-32x32.png);
+	}
+}
